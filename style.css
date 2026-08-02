@@ -24,8 +24,7 @@ textarea {
 }
 
 textarea:focus {
-    border: 2px solid rgb(70, 70, 70);
-    outline: none;
+    outline: 2px solid #696969;
 }
 
 ::selection {
