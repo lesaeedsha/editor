@@ -1,13 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Editor</title>
-    <link rel="stylesheet" href="style.css">
-    <script src="script.js" defer></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Editor</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
 </head>
 <body>
-    <textarea name="monospace" id="monospace" spellcheck="false" placeholder="Type ..."></textarea>
+  <main>
+    <div id="button-container">
+      <button class="space-button" id="add-space">+</button>
+    </div>
+    <div id="space-container">
+      <div class="space-wrapper">
+        <button class="remove-space">×</button>
+        <textarea spellcheck="false" placeholder="Type ..."></textarea>
+      </div>
+    </div>
+  </main>
 </body>
 </html>
